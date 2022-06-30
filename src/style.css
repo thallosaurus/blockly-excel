@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#app {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 0px 0px;
+    height: 100vh;
+}
+
+#codearea {
+    
+}
