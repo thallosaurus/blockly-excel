@@ -1,5 +1,9 @@
+let codePreview;
+
+codePreview = document.getElementById('textarea');
+
 module.exports = {
     updateCodePreview(code) {
-        document.getElementById('textarea').value = code;
+        codePreview.value = code;
     }
 }

@@ -5,10 +5,12 @@
   "license": "MIT",
   "scripts": {
     "build:debug": "webpack",
-    "test": "browserify"
+    "win": "electron wrapper/window.js",
+    "serve": "webpack serve"
   },
   "dependencies": {
-    "blockly": "^8.0.3"
+    "blockly": "^8.0.3",
+    "electron": "^19.0.7"
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
